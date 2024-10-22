@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="The_Notebook.NatureOfDating">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAUAgAADAAAAAAAAAAACEAAAAAAAAAA=</HashCode>
+      <FileName>NatureOfDating.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ChanhePeople" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.NatureOfDating_People">
+    <Position X="7.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAAAAAQAAAADAAAAAAAAAAAAMAAAAAAAAAA=</HashCode>
+      <FileName>NatureOfDating_People.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ChanhePeople" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.Organization">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAACAAQAAAADAAAAAAAAAAAAEAAAAAABQAA=</HashCode>
+      <FileName>Organization.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ChanhePeople" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.PersonalQualities">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAAABAAAQAAAADAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>PersonalQualities.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ChanhePeople" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.PersonalQualities_People">
+    <Position X="12.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQAgAADAgAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>PersonalQualities_People.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ChanhePeople" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.PhoneType">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAAIQAAAADQAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>PhoneType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ChanhePeople" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.PhoneType_People">
+    <Position X="15" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQAAAADAAAAAAAAAAAAEAAAUAAAAAA=</HashCode>
+      <FileName>PhoneType_People.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ChanhePeople" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.Profession">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAAAQAAAADAAAAAAAAAAAAEAAAAAAAQgA=</HashCode>
+      <FileName>Profession.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ChanhePeople" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.User">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAAAAAAAAABQAIAADAAAAQAAIAAAAAAAAIDEEAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Authorization" />
+      <Property Name="Registration" />
+      <Property Name="EditYourData" />
+      <Property Name="Menu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.Work">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAAAAAAQAAAADAAAgAAAAAAAAEAAAAAQAAAA=</HashCode>
+      <FileName>Work.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ChanhePeople" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.ReportServise">
+    <Position X="12" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAABAAAAAAAAQAAAADAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReportServise.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ReadPeople" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="The_Notebook.Authorization" Collapsed="true">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACCAAAFAACRCAAAACAAAIAAAAAQAAAAAAAwA=</HashCode>
+      <FileName>Authorization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Notebook.ChanhePeople" Collapsed="true">
+    <Position X="9.75" Y="4" Width="4" />
+    <TypeIdentifier>
+      <HashCode>/zmAQ8QYKSaAU5yvRKDDic1HYP2/2NRi1Xkfcnj1RrQ=</HashCode>
+      <FileName>ChanhePeople.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Notebook.EditYourData" Collapsed="true">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAAARAAABCACABCAAACAAAAAAABAAAAAyA=</HashCode>
+      <FileName>EditYourData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Notebook.Registration" Collapsed="true">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAADCAAABAAABCACAECAAACAAAAAAABAAAAAyA=</HashCode>
+      <FileName>Registration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Notebook.ReadPeople" Collapsed="true">
+    <Position X="8.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QDAEgAAAACAAAhgBAICACAACAMg5AAEgAHADAAAAQwA=</HashCode>
+      <FileName>ReadPeople.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Notebook.Menu" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAABACAAAhgAAACAAAACAAAIgAgIAGAAACAAAwA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Notebook.FormingBirthdayGreetings" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAQAACAAABABAICACAACAMg5AAAAEHALAAAAA0A=</HashCode>
+      <FileName>FormingBirthdayGreetings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Notebook.People">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kgAABAACBAQACAQAgAADAIQAQAAIAAEIEAAAABAQAAg=</HashCode>
+      <FileName>People.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Menu" />
+      <Property Name="ReadPeople" />
+      <Property Name="ChanhePeople" />
+      <Property Name="FormingBirthdayGreetings" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
